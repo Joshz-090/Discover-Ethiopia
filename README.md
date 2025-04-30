@@ -29,7 +29,15 @@ A responsive, visually immersive website showcasing Ethiopia’s cultural herita
 3. **Structure** – Clear sections (Features, Installation, Demo) for usability.  
 4. **Call-to-Action** – Encourages contributions.  
 
-Let me know if you'd like to add:  
-- A **"Contributing"** guide  
-- **Dependencies** (if any)  
-- **Roadmap** (future features)  
+# Contributing to Discover Ethiopia
+
+Thank you for your interest in contributing! 🎉  
+We welcome suggestions, improvements, and fixes to make this project even better.
+
+## How to Contribute
+
+1. **Fork the repository**.
+2. **Clone your fork**:
+   ```bash
+   git clone https://github.com/your-username/discover-ethiopia.git
+
