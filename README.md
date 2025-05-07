@@ -18,26 +18,6 @@ A responsive, visually immersive website showcasing Ethiopia’s cultural herita
 - **Design:** CSS Animations, Transitions, and Transformations  
 
 ## 📦If you want to see
- 
-   ```bash
-   https://joshz-090.github.io/Discover-Ethiopia/
----
 
-### 📌 **Key Enhancements for GitHub:**  
-1. **Badges** – Add credibility (license, stars) via [shields.io](https://shields.io).  
-2. **Visuals** – Replace placeholder screenshot path with actual image.  
-3. **Structure** – Clear sections (Features, Installation, Demo) for usability.  
-4. **Call-to-Action** – Encourages contributions.  
-
-# Contributing to Discover Ethiopia
-
-Thank you for your interest in contributing! 🎉  
-We welcome suggestions, improvements, and fixes to make this project even better.
-
-## How to Contribute
-
-1. **Fork the repository**.
-2. **Clone your fork**:
-   ```bash
-   git clone https://github.com/your-username/discover-ethiopia.git
-
+```bash
+https://joshz-090.github.io/Discover-Ethiopia/
