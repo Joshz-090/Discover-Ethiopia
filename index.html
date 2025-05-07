@@ -545,53 +545,95 @@
         </div>
     </footer>
 
-    <script>
-        // Mobile Menu Toggle
-        const mobileMenu = document.getElementById('mobile-menu');
-        const navMenu = document.getElementById('nav-menu');
-        
-        mobileMenu.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-        });
-        
-        // Smooth Scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                e.preventDefault();
-                
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-                
-                // Close mobile menu if open
-                navMenu.classList.remove('active');
-            });
-        });
-        
-        // Animate elements when scrolling
-        const animateOnScroll = () => {
-            const elements = document.querySelectorAll('.feature-card, .gallery-item, .about-image, .about-text');
-            
-            elements.forEach(element => {
-                const elementPosition = element.getBoundingClientRect().top;
-                const screenPosition = window.innerHeight / 1.3;
-                
-                if (elementPosition < screenPosition) {
-                    element.style.opacity = '1';
-                    element.style.transform = 'translateY(0)';
+<script>
+    // DOM Elements
+    const mobileMenuBtn = document.getElementById('mobile-menu');
+    const navMenu = document.getElementById('nav-menu');
+    const navLinks = document.querySelectorAll('nav ul li a');
+    
+    // Intersection Observer for scroll animations
+    const createScrollObserver = () => {
+        const options = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
                 }
             });
-        };
+        }, options);
+
+        // Observe all animatable elements
+        document.querySelectorAll('.feature-card, .gallery-item, .about-image, .about-text').forEach(el => {
+            el.classList.add('will-animate');
+            observer.observe(el);
+        });
+    };
+
+    // Mobile menu functionality
+    const toggleMobileMenu = () => {
+        navMenu.classList.toggle('active');
+        mobileMenuBtn.innerHTML = navMenu.classList.contains('active') 
+            ? '<i class="fas fa-times"></i>' 
+            : '<i class="fas fa-bars"></i>';
         
-        // Set initial state for animation
-        document.querySelectorAll('.feature-card, .gallery-item, .about-image, .about-text').forEach(element => {
-            element.style.opacity = '0';
-            element.style.transform = 'translateY(20px)';
-            element.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        // Toggle body scroll when menu is open
+        document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+    };
+
+    // Smooth scrolling for anchor links
+    const smoothScroll = (e) => {
+        e.preventDefault();
+        const targetId = e.currentTarget.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop - 80,
+                behavior: 'smooth'
+            });
+            
+            // Close mobile menu if open
+            if (navMenu.classList.contains('active')) {
+                toggleMobileMenu();
+            }
+        }
+    };
+
+    // Add event listeners
+    const initEventListeners = () => {
+        mobileMenuBtn.addEventListener('click', toggleMobileMenu);
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', smoothScroll);
         });
         
-        window.addEventListener('scroll', animateOnScroll);
-        window.addEventListener('load', animateOnScroll);
-    </script>
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.closest('nav') && !e.target.closest('.mobile-menu') && navMenu.classList.contains('active')) {
+                toggleMobileMenu();
+            }
+        });
+    };
+
+    // Initialize everything when DOM is loaded
+    document.addEventListener('DOMContentLoaded', () => {
+        initEventListeners();
+        createScrollObserver();
+        
+        // Add a class to body to indicate JS is enabled
+        document.body.classList.add('js-enabled');
+    });
+
+    // Optional: Add a debounced resize listener for responsive adjustments
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 768 && navMenu.classList.contains('active')) {
+            toggleMobileMenu();
+        }
+    });
+</script>
 </body>
 </html>
