@@ -19,7 +19,7 @@ A responsive, visually immersive website showcasing Ethiopia’s cultural herita
 
 ## 📦If you want to see
 
-
+ : [https://github.com/joshz-090/Discover-Ethiopia](https://github.com/joshz-090/Discover-Ethiopia)
 
 ### 📌 **Key Enhancements for GitHub:**  
 1. **Badges** – Add credibility (license, stars) via [shields.io](https://shields.io).  
