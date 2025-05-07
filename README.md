@@ -17,8 +17,8 @@ A responsive, visually immersive website showcasing Ethiopia’s cultural herita
 - **Frontend:** HTML5, CSS3 (Flexbox/Grid), JavaScript  
 - **Design:** CSS Animations, Transitions, and Transformations  
 
-## 📦If  
-1. Clone the repo:  
+## 📦If you want to see
+ 
    ```bash
    https://joshz-090.github.io/Discover-Ethiopia/
 ---
