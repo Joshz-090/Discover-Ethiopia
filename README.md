@@ -42,4 +42,4 @@ We welcome suggestions, improvements, and fixes to make this project even better
 https://joshz-090.github.io/Discover-Ethiopia/
 
 
-**thanks for your time.**
+**Thanks for your time.**
