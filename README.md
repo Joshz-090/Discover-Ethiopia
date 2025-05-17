@@ -40,3 +40,6 @@ We welcome suggestions, improvements, and fixes to make this project even better
 2. **Clone your fork**:
 ```bash
 https://joshz-090.github.io/Discover-Ethiopia/
+
+
+**thanks for your time.**
