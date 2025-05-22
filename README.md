@@ -38,8 +38,12 @@ We welcome suggestions, improvements, and fixes to make this project even better
 
 1. **Fork the repository**.
 2. **Clone your fork**:
-```bash
+``bash
+
 https://joshz-090.github.io/Discover-Ethiopia/
 
 
 **Thanks for your time.😁**
+
+
+Created by [Joshz-090](https://github.com/Joshz-090) 
