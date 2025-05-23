@@ -46,4 +46,4 @@ https://joshz-090.github.io/Discover-Ethiopia/
 **Thanks for your time.😁**
 
 
-Created by [Joshz-090](https://github.com/Joshz-090) 
+Created by [Eyasu Zerihun](https://github.com/Joshz-090) 
