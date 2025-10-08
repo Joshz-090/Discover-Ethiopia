@@ -1,9 +1,7 @@
 services:
-  - type: static_site
+  - type: web
     name: Discover-Ethiopia
+    runtime: static
     buildCommand: ""
     staticPublishPath: .
     branch: main
-    envVars:
-      - key: NODE_VERSION
-        value: 18
