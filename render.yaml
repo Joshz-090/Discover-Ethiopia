@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: math-sprint-game
+    env: static
+    buildCommand: ""
+    staticPublishPath: .
+    plan: free
+    branch: main
