@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: math-sprint-game
+    name: Discover-Ethiopia
     env: static
     buildCommand: ""
     staticPublishPath: .
