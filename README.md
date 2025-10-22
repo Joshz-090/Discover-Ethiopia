@@ -1,4 +1,4 @@
-# 🌍 Discover Ethiopia - Interactive Travel Showcase  
+# 🌍 Discover Ethiopia - Interactive Travel Showcase   
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 [![GitHub stars](https://img.shields.io/github/stars/Joshz-090/discover-ethiopia?style=social)](https://github.com/Joshz-090/discover-ethiopia)  
