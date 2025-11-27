@@ -32,7 +32,7 @@ A responsive, visually immersive website showcasing Ethiopia’s cultural herita
 
 GitHub Repository: [https://github.com/joshz-090/Discover-Ethiopia](https://github.com/joshz-090/Discover-Ethiopia)
 
-Thank you for your interest in contributing! 🎉  
+Thank you for your interest in contributing! 🎉   
 We welcome suggestions, improvements, and fixes to make this project even better.
 
 ## How to Contribute
