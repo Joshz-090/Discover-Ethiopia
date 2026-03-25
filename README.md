@@ -28,7 +28,7 @@ A responsive, visually immersive website showcasing Ethiopia’s cultural herita
 3. **Structure** – Clear sections (Features, Installation, Demo) for usability.  
 4. **Call-to-Action** – Encourages contributions.  
 
-# Contributing to Discover Ethiopia
+# Contributing to Discover Ethiopia 
 
 GitHub Repository: [https://github.com/joshz-090/Discover-Ethiopia](https://github.com/joshz-090/Discover-Ethiopia)
 
