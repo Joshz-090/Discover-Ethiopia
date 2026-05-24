@@ -14,7 +14,7 @@ A responsive, visually immersive website showcasing Ethiopia’s cultural herita
 - **Mobile-First Design** – Fully responsive across devices.  
 
 
-## 🛠️ Tech Stack  
+## 🛠️ Tech Stack   
 - **Frontend:** HTML5, CSS3 (Flexbox/Grid), JavaScript  
 - **Design:** CSS Animations, Transitions, and Transformations  
 
