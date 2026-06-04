@@ -7,7 +7,7 @@
 A responsive, visually immersive website showcasing Ethiopia’s cultural heritage and landmarks through animated gradients, interactive panels, and modern UI effects.  
 
 ## 🚀 Features  
-- **Animated Gradient Background** – Smooth CSS gradient transitions.  
+- **Animated Gradient Background** – Smooth CSS gradient transitions.   
 - **Interactive Image Gallery** – Hover/click effects on Ethiopian landmarks.  
 - **Fixed Navigation Header** – Quick access to sections.  
 - **Blurred Glass Footer** – Elegant contact section with CSS `backdrop-filter`.  
