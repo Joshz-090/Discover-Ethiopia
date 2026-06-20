@@ -12,7 +12,7 @@ A responsive, visually immersive website showcasing Ethiopia’s cultural herita
 - **Fixed Navigation Header** – Quick access to sections.  
 - **Blurred Glass Footer** – Elegant contact section with CSS `backdrop-filter`.  
 - **Mobile-First Design** – Fully responsive across devices.  
-
+ 
 
 ## 🛠️ Tech Stack
 - **Frontend:** HTML5, CSS3 (Flexbox/Grid), JavaScript  
